@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../CSSFiles/ContactUS.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <img class="mylogo" src="../Image/LOGO.png" alt="LOGO">
+            <ul class="list">
+                <li><a href="../HTMLFiles/home.html">Home</a></li>
+                <li><a href="../HTMLFiles/Gallery.html">Gallery</a></li>
+                <li><a href="../HTMLFiles/AboutUS.html">About Us</a></li>
+                <li class="active"><a href="../HTMLFiles/ContactUS.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <br><br><br><br>
+        
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+              <p>Leave us a message:</p>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                  <img src="../Image/DreamCatcher.jpeg" alt="dream" style="width:95%">
+              </div>
+
+              <div class="column">
+                <form>
+                  First Name
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                  Last Name
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                  Country
+                  <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+
+                  Subject
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        <br><br>
+        <hr>
+        <br>
+        <a href="AboutUS.html" style="text-decoration: none; width: 30px; padding: 5px 5px; margin-left: 10px;">Back</a>
+    </body>
+</html>

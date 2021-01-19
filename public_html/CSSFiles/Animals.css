@@ -1,0 +1,34 @@
+#Sidebar{
+    width: 100px;
+    height: 500px;
+    position: fixed;
+}
+#Sidebar .LOGO{width: 200%; margin-top: -80px; position: absolute;  }
+
+#Sidebar a{ 
+    text-decoration: none; 
+    display: list-item;  
+    color: green; 
+    text-align: center; 
+    transition: all 1s ease; 
+    padding: 5px;
+}
+		
+#Sidebar a:hover{color: limegreen; background-color: green;}
+	
+body{
+    background-color: lightgreen;
+}
+
+.content{
+    margin-left:280px;
+}
+.content h2{text-align: center; font-size: 50px; color: green; font-family: Stencil; cursor: default;}
+.content h5{text-align: center; font-size: 25px; color: green; cursor: default;}
+.main .up img{
+    width: 250px;
+    transition: width 2s ease;
+}
+
+.main .up:hover img{width: 350px; box-shadow: 4px 4px 4px green; border: 2px solid green;}
+
